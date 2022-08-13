@@ -9,18 +9,18 @@ package br.edu.fatecfranca.projeto1;
  *
  * @author RafaelBomfim
  */
-public class Projeto1 {
+public class Projeto1 { //criação de classe
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //método para classe primitiva
         
         // vamos instanciar a classe Produto
         Produto obj1 = new Produto();
-        obj1.nome = "Bola de basquete";
+        obj1.nome = "Bola de basquete"; //dando valor aos atributos
         obj1.qtde = 3;
         obj1.preco = 120;
-        
-        System.out.println("Nome " + obj1.nome + 
-                " Qtde: " + obj1.qtde + " Preço " + obj1.preco);
-        
+        //classe, atributo e método, usado para saída de dados no terminal
+        System.out.println("Nome: " + obj1.nome + "\n" +
+                "Quantidade: " + obj1.qtde + "\n" +
+                "Preço: R$" + obj1.preco);              
     }
 }

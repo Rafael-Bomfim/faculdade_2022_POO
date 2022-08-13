@@ -8,11 +8,12 @@ package br.edu.fatecfranca.projeto1;
  *
  * @author RafaelBomfim
  */
-public class Produto {
+public class Produto { //criação de classe
     
     // vamos criar os atributos da classe
     // atributos são chamados de variáveis
-    public int qtde;
-    public float preco;
-    public String nome;
+    public int qtde; //variável primitiva
+    public float preco; //variável primitiva
+    public String nome; //variável por referência
+
 }
