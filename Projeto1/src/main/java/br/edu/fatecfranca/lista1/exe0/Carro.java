@@ -1,4 +1,4 @@
-package br.edu.fatecfranca.projeto1.exe0;
+package br.edu.fatecfranca.lista1.exe0;
 public class Carro {
     
     public String marca, modelo;

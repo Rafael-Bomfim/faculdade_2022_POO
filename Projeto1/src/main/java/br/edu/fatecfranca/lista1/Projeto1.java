@@ -1,6 +1,6 @@
-package br.edu.fatecfranca.projeto1.exe0;
+package br.edu.fatecfranca.lista1;
 
-import br.edu.fatecfranca.projeto1.Produto;
+import br.edu.fatecfranca.lista1.exe03.Produto;
 
 
 public class Projeto1 { //criação de classe

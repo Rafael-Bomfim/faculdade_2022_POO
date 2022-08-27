@@ -11,4 +11,5 @@
         <maven.compiler.target>18</maven.compiler.target>
         <exec.mainClass>br.edu.fatecfranca.projeto1.Projeto1</exec.mainClass>
     </properties>
+    <name>Lista1</name>
 </project>
