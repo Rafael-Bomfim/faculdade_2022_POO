@@ -16,7 +16,7 @@ public final class Aluno {
         this.setP1(p1);
         this.setP2(p2);
     }
-    //setter void com parametros
+    //setters void com parametros
     public void setNroAluno(int nroAluno){
         // converte int para String
         if (Integer.toString(nroAluno).length() == 6){
