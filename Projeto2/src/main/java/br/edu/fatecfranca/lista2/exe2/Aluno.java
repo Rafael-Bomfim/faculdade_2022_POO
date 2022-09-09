@@ -78,7 +78,7 @@ public final class Aluno {
     }
     
     public void dadosAluno(){
-        System.out.println("Número: " + this.nroAluno + " Nome: " + this.nome +
-                " Idade: " + this.idade);
+        System.out.println("Número: " + this.nroAluno + "\n" + "Nome: " + this.nome +
+            "\n" + "Idade: " + this.idade +"\n");
     }
 }

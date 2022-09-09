@@ -4,10 +4,10 @@ public final class Cliente {
     private String nroConta, nroAgencia, nome; //criação de atributos para encapsulamentos
     private float saldo;
     
-    public Cliente(){
+    public Cliente(){ //método constutor vazio
         
     }
-    //instanciamento
+    //método construtor com parametros
     public Cliente(String nroConta, String nroAgencia, String nome, float saldo){
         this.setNome(nome);
         this.setNroAgencia(nroAgencia);
@@ -72,7 +72,7 @@ public final class Cliente {
     }
     
     public void mostrar(){
-        System.out.println("Conta " + this.nroConta + " Agência " + this.nroAgencia +
-                " Nome " + this.nome + " Saldo " + this.saldo);
+        System.out.println("Conta: " + this.nroConta + "\n" + "Agência: " + this.nroAgencia +
+                "\n" + "Nome: " + this.nome + "\n" + "Saldo: " + this.saldo + "\n");
     }
 }
