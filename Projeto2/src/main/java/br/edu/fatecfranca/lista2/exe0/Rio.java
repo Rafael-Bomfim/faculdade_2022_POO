@@ -8,12 +8,13 @@ public final class Rio {
 
    public Rio(){
         
-    }
-    public Rio(String nome, double nivel, boolean poluido){
-        this.setNome(nome);
-        this.setNivel(nivel);
-        this.setPoluido(poluido);
-    }
+   }
+   
+   public Rio(String nome, double nivel, boolean poluido){
+       this.setNome(nome);
+       this.setNivel(nivel);
+       this.setPoluido(poluido);
+   }
     
     public void ensolarar(double x){
        this.setNivel(this.nivel - x);
