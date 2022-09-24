@@ -1,30 +1,25 @@
-package br.edu.fatecfranca.lista4.exe0;
+package br.edu.fatecfranca.lista4;
 
 public class Funcionario {
-     protected int codigo;
+    
     protected String nome, cpf;
+    protected int codigo;
     protected float salario, cargaHoraria;
 
     public Funcionario(){
         
     }
-    
-    public Funcionario(int codigo, String nome, String cpf, float salario, float cargaHoraria) {
-        this.codigo = codigo;
+
+    public Funcionario(String nome, String cpf, int codigo, float salario, 
+            float cargaHoraria) {
         this.nome = nome;
         this.cpf = cpf;
+        this.codigo = codigo;
         this.salario = salario;
         this.cargaHoraria = cargaHoraria;
     }
-
-    public int getCodigo() {
-        return codigo;
-    }
-
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
-    }
-
+    
+    
     public String getNome() {
         return nome;
     }
@@ -39,6 +34,14 @@ public class Funcionario {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
 
     public float getSalario() {
@@ -59,7 +62,13 @@ public class Funcionario {
 
     @Override
     public String toString() {
-        return "Funcionario{" + "codigo=" + codigo + ", nome=" + nome + 
-                ", cpf=" + cpf + ", salario=" + salario + ", cargaHoraria=" + cargaHoraria + '}';
+        return "Funcionario{" + "nome=" + nome + "\n" + " cpf=" + cpf + "\n" +
+                " codigo=" + codigo + "\n" + " salario=" + salario + 
+                " cargaHoraria=" + cargaHoraria + "\n" + '}';
+    }
+    
+    public float calculaSalario(){
+        return this.salario;
     }
 }
+
